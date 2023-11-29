@@ -10,6 +10,8 @@ In this paper, we propose an end-to-end High-quality INpainting Transformer, abb
 --------------------
 For the full CelebA-HQ dataset, please refer to http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
+For the full Places2 dataset, please refer to http://places2.csail.mit.edu/download.html
+
 For the irrgular mask dataset, please refer to http://masc.cs.gmu.edu/wiki/partialconv
 
 Please use `script/flist.py` to create `.flist` file for training and testing.
