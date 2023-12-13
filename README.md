@@ -7,7 +7,7 @@ In this paper, we propose an end-to-end High-quality INpainting Transformer, abb
 
 ## News
 - [x] Training Code
-- [ ] Pre-trained Models (coming soon)
+- [x] Pre-trained Models
 - [ ] Demo Video (coming soon)
 
 
@@ -29,7 +29,10 @@ Python >=3.7
 
 pytorch
 
-
+**Pre-trained model**
+--------------------
+We released the pre-trained model 
+[Google Drive](https://drive.google.com/drive/folders/1Iy3BNkcKY5NOOG53YG3DPQzDnZLgW0FN?usp=sharing)
 
 **Getting Started**
 ----------------------
