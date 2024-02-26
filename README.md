@@ -7,7 +7,7 @@ In this paper, we propose an end-to-end High-quality INpainting Transformer, abb
 
 **Overview**
 --------------------
-![image](Overview.png)
+![image](overview.png)
 
 ## News
 - [x] Training Code
