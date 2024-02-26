@@ -11,7 +11,7 @@ In this paper, we propose an end-to-end High-quality INpainting Transformer, abb
 
 **Mask-aware Pixel-shuffle Downsampling module (MPD)**
 --------------------
-![image](MPD.png)
+![image](MPD.png)![image](SCAL.png)
 
 ## News
 - [x] Training Code
