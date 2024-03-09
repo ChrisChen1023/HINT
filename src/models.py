@@ -28,7 +28,7 @@ class BaseModel(nn.Module):
             else: 
                 data = torch.load(self.gen_weights_path, map_location=lambda storage, loc: storage)
 
-            self.generator.load_state_dict(data['generator'])
+            self.generator.load_state_dict(data['generator'], strict=False)
             self.iteration = data['iteration']
 
         # load discriminator only when training
