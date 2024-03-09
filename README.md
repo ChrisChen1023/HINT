@@ -64,11 +64,14 @@ For each pretrained model:
 ----------------------
 Download the pre-trained model to `./checkpoints`
 
-Set your own `config.yml` file and copy it to corresponding checkpoint folder, run:
+Set your own `config.yml` with the corresponding filst paths, and copy it to corresponding checkpoint folder, 
+
+
+run:
 ```
 python train.py
 ```
-For testing, run:
+For testing, in `config.yml`, set the `--MAKS 6` for the fixed mask index, then run:
 ```
 python test.py
 ```
