@@ -207,7 +207,8 @@ class HINT():
 
 
                 inputs = (images * (1 - masks))
-                outputs_img = self.inpaint_model(images, masks)
+                with torch.no_grad():
+                    outputs_img = self.inpaint_model(images, masks)
                 outputs_merged = (outputs_img * masks) + (images * (1 - masks))
                 
                 psnr, ssim = self.metric(images, outputs_merged)
