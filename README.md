@@ -48,10 +48,16 @@ pytorch
 --------------------
 We released the pre-trained model 
 [Google Drive](https://drive.google.com/drive/folders/1Iy3BNkcKY5NOOG53YG3DPQzDnZLgW0FN?usp=sharing)
+
+
 For each pretrained model:
+
 [CelebA-HQ](https://drive.google.com/drive/folders/1DPmw5LSVxmRXoiLzPrIePXJHla0ek6E9?usp=drive_link)
+
 [CelebA](https://drive.google.com/drive/folders/1oWuRmL3ye-ucHkUfbSqh_2NkzlYbKC29?usp=drive_link)
+
 [Places2](https://drive.google.com/drive/folders/1mzHkz8sjA7uxgG1nTLiPZQKl1zITiTgV?usp=drive_link)
+
 [Dunhuang](https://drive.google.com/drive/folders/1VXAIxTNSfues5wB6Cakyn8Z45UxW_V40?usp=drive_link)
 
 **Getting Started**
