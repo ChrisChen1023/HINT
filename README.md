@@ -35,6 +35,11 @@ Please use `script/flist.py` to create `.flist` file for training and testing.
 
 **Initialization**
 --------------------
+* Clone this repo:
+```
+git clone https://github.com/ChrisChen1023/HINT
+cd HINT-main
+```
 Python >=3.7
 
 pytorch
