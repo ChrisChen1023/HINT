@@ -5,6 +5,8 @@ HINT: High-quality INpainting Transformer with Enhanced Attention and Mask-aware
 Existing image inpainting methods leverage convolution-based downsampling approaches to reduce spatial dimensions. This may result in information loss from corrupted images where the available information is inherently sparse, especially for the scenario of large missing regions. Recent advances in self-attention mechanisms within transformers have led to significant improvements in many computer vision tasks including  inpainting. However, limited by the computational costs, existing methods cannot fully exploit the efficacy of long-range modelling capabilities of such models. 
 In this paper, we propose an end-to-end High-quality INpainting Transformer, abbreviated as HINT, which consists of a novel mask-aware pixel-shuffle downsampling module (MPD) to preserve the visible information extracted from the corrupted image while maintaining the integrity of the information available for high-level inferences made within the model. Moreover, we propose a Spatially-activated Channel Attention Layer (SCAL), an efficient self-attention mechanism interpreting spatial awareness to model the corrupted image at multiple scales. To further enhance the effectiveness of SCAL, motivated by recent advanced in speech recognition, we introduce a sandwich structure that places feed-forward networks before and after the SCAL module. We demonstrate the superior performance of HINT compared to contemporary state-of-the-art models on four datasets, CelebA, CelebA-HQ, Places2, and Dunhuang.
 
+This paper is accepted by IEEE Transactions on Multimedia (TMM)
+
 Paper Download:[HINT: High-quality INpainting Transformer with Enhanced Attention and Mask-aware Encoding](https://arxiv.org/abs/2402.14185)
 
 **Overview**
@@ -75,3 +77,22 @@ For testing, in `config.yml`, set the `--MAKS 6` for the fixed mask index, then 
 ```
 python test.py
 ```
+
+
+**Citation**
+```
+If you find this work helpful, please cite us.
+```
+@ARTICLE{10458430,
+  author={Chen, Shuang and Atapour-Abarghouei, Amir and Shum, Hubert P. H.},
+  journal={IEEE Transactions on Multimedia}, 
+  title={HINT: High-quality INpainting Transformer with Mask-Aware Encoding and Enhanced Attention}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Transformers;Feature extraction;Image reconstruction;Computational modeling;Task analysis;Data mining;Computer vision;Image Inpainting;Transformer;Representation Learning},
+  doi={10.1109/TMM.2024.3369897}}
+
+
+
