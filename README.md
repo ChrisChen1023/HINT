@@ -66,8 +66,7 @@ For each pretrained model:
 ----------------------
 Download the pre-trained model to `./checkpoints`
 
-Set your own `config.yml` with the corresponding filst paths, and copy it to corresponding checkpoint folder, 
-
+Set your own `config.yml` with the corresponding filst paths, and copy it to corresponding checkpoint folder. Set the `--MAKS 3` for the mixed mask index, 
 
 run:
 ```
