@@ -64,9 +64,12 @@ For each pretrained model:
 
 **Getting Started**
 ----------------------
+[Download pre-trained model]
 Download the pre-trained model to `./checkpoints`
 
-Set your own `config.yml` with the corresponding filst paths, and copy it to corresponding checkpoint folder. Set the `--MAKS 3` for the mixed mask index, 
+[Data Preparation]
+Download the Datasets, use `script/flist.py` to create `.flist` file for training and testing.
+Set your own `config.yml` with the corresponding filst paths at 'TEST_INPAINT_IMAGE_FLIST', 'TRAIN_INPAINT_IMAGE_FLIST', 'T_MASK_FLIST' and 'TEST_MASK_FLIST'. Set the `--MAKS 3` for the mixed mask index (for training),  and  `--MAKS 6` for the fixed mask index (for testing).
 
 run:
 ```
