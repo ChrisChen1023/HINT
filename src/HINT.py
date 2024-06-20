@@ -15,6 +15,7 @@ from skimage.metrics import peak_signal_noise_ratio as compare_psnr
 import wandb
 import lpips
 import torchvision
+import time
 
 '''
 This repo is modified basing on Edge-Connect
@@ -208,7 +209,10 @@ class HINT():
 
                 inputs = (images * (1 - masks))
                 with torch.no_grad():
+                    tsince = int(round(time.time()*1000))
                     outputs_img = self.inpaint_model(images, masks)
+                    ttime_elapsed = int(round(time.time()*1000))-tsince
+                    print('test time elaspsed {}ms'.format(ttime_elapsed))
                 outputs_merged = (outputs_img * masks) + (images * (1 - masks))
                 
                 psnr, ssim = self.metric(images, outputs_merged)
