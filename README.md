@@ -60,7 +60,7 @@ For each pretrained model:
 
 [Places2](https://drive.google.com/drive/folders/1mzHkz8sjA7uxgG1nTLiPZQKl1zITiTgV?usp=drive_link)
 
-[Dunhuang](https://drive.google.com/drive/folders/1VXAIxTNSfues5wB6Cakyn8Z45UxW_V40?usp=drive_link)
+[Dunhuang](https://drive.google.com/drive/folders/14bRa6_12MZf1Qsu3Jv6CJEFwWO0WX5qF?usp=drive_link)
 
 **Getting Started**
 ----------------------
